@@ -3,7 +3,7 @@ import './Movie.css';
 
 const API_IMG = 'https://image.tmdb.org/t/p/w500/';
 
-const MovieBox = ({ title, poster_path, overview, release_date }) => {
+const MovieBox = ({ title, poster_path, overview, release_date, runtime }) => {
   const [showOverview, setShowOverview] = useState(false);
 
   const handleButtonClick = () => {
@@ -12,12 +12,16 @@ const MovieBox = ({ title, poster_path, overview, release_date }) => {
 
   return (
     <div className='movie-card'>  
+     <div>TOP TEN MOVIES</div>
       <img src={API_IMG + poster_path} alt='Collection of movie' className='movie-card img' />
       <div className='movie-release-date'>
         <p>{release_date}</p>
       </div>  
       <div className='movie-title'>
         <h1>{title}</h1>
+      </div>
+      <div className='movie-runtime'>
+        <p>{runtime}</p>
       </div>
 
       <button className='button-type' onClick={handleButtonClick}>view more</button>
