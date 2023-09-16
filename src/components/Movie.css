@@ -1,0 +1,43 @@
+.movie-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    height: 600px;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie-title {
+    margin-top: 10px;
+    font-weight: lighter;
+    height: auto;
+    color: blueviolet;
+    font-size: 13px;
+
+  }
+  
+  .movie-release-date {
+    margin-top: 5px;
+    color: #666;
+    height: auto;
+  }
+  .button-tye {
+    color: #fff;
+    background-color: #000000;
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .overview {
+    margin-top: 5px;
+    color: blueviolet;
+  }
