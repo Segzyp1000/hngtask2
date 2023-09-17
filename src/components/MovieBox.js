@@ -12,7 +12,6 @@ const MovieBox = ({ title, poster_path, overview, release_date, runtime }) => {
 
   return (
     <div className='movie-card'>  
-     <div><h2>TOP TEN MOVIES</h2></div>
       <img src={API_IMG + poster_path} alt='Collection of movie' className='movie-card img' />
       <div className='movie-release-date'>
         <p>{release_date}</p>
