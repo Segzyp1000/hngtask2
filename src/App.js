@@ -11,7 +11,7 @@ const App = () => {
     fetch(API_URL)
     .then((res)=> res.json())
     .then((data)=> {
-      setMovies(data.results)
+      setMovies(data.results.slice(0, 10));
     })
   },[])
   return (
@@ -23,6 +23,7 @@ const App = () => {
       poster_path={data.poster_path}
       release_date={data.release_date}
       overview={data.overview}
+      runtime={data.runtime}
     />
       )}
     
