@@ -63,6 +63,7 @@ const App = () => {
             poster_path={data.poster_path}
             release_date={data.release_date}
             runtime={data.runtime}
+            vote_average={data.vote_average}
             onClick={() => handleMovieClick(data)}
     />
       ))}  

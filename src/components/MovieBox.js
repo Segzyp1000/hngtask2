@@ -4,7 +4,7 @@ import './Movie.css';
 
 const API_IMG = 'https://image.tmdb.org/t/p/w500/';
 
-const MovieBox = ({ title, poster_path, release_date, runtime, overview, onClick }) => {
+const MovieBox = ({ title, poster_path, release_date, runtime, vote_average, vote_count, onClick }) => {
  
 
   return (
@@ -20,10 +20,9 @@ const MovieBox = ({ title, poster_path, release_date, runtime, overview, onClick
       <div className='movie-runtime'>  
         <p>{runtime}</p>
       </div>
-      {/* <div className='overview'>
-        <button className='button'>Overview</button>
-        <p className='details'>{overview}</p>
-      </div> */}
+      <div className='movie-vote_average'>
+        <p>{vote_average}</p>
+      </div>
     </div>    
   )
 }

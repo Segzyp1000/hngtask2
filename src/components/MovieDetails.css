@@ -39,10 +39,14 @@ overlay {
 }
 
 .overview {
-  font-size: 2rem;
-  line-height: 1;
+  font-size: 1.5rem;
+  line-height: 0.8;
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 400px;
   font-weight: bold;
 }
+
+/* @media (400px) {
+
+} */
