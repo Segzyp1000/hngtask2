@@ -4,6 +4,7 @@ import React,{useEffect, useState} from 'react'
 import MovieBox from './components/MovieBox';
 import MovieDetails from './components/MovieDetails';
 import SearchMovies from "./components/SearchMovies";
+import Footer from './components/Footer';
 
 
 const API_SEARCH='https://api.themoviedb.org/3/search/movie?api_key=beadd6ccf86cde03d94c1a7faa315cf8'
@@ -68,8 +69,11 @@ const App = () => {
     />
       ))}  
     </div>
+    <Footer />
     </div> 
 )
+
+
   }
 
 export default App   

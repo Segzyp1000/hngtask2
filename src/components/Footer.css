@@ -1,0 +1,24 @@
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .copyright,
+  .terms-of-use {
+    margin-top: 1rem;
+  }
+  
+  .terms-of-use a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
